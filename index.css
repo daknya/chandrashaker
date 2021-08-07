@@ -32,7 +32,6 @@ body{
 }
 
 
-
 p{
      padding: 30px;
 }
@@ -80,11 +79,20 @@ p{
          display: flex ;
          justify-content: space-between;
          align-items: center;
-         padding: 40px;
-         color: sandybrown;
+         padding: 30px;
+         
+       
     }
     .bsdk h1:hover{
         background:black;
         
+        color: sandybrown;
+
     }
+
+    .bsdk a{
+        color: rgb(3, 16, 29); 
+        text-decoration: none;
+    }
+
  }
