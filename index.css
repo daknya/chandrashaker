@@ -1,0 +1,63 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     
+
+}
+
+body{
+     background: aqua;
+}
+
+.everything{
+     display: flex;
+     flex-direction: row;
+}
+.left{
+     border-right: 1px solid black ;
+    background: black ;
+     width: 40%;
+    height: 900px; 
+     margin-top: 50px;
+     margin-bottom: 50px;
+     color: rgb(214, 226, 101);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+   align-items: center;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   padding-top: 40px;
+   
+}
+
+
+
+p{
+     padding: 30px;
+}
+ .profile{
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+ }
+
+ .right{
+      margin-top: 70px;
+      
+    background: white;
+    margin-bottom: 70px;
+    width: 60%;
+
+ }
+
+ header{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .pro{
+      padding-left: 40px ;
+ }
+ 
