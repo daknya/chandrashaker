@@ -60,4 +60,16 @@ p{
  .pro{
       padding-left: 40px ;
  }
- 
+ @media (max-width:600px) {
+     .everything{
+          display: inline;
+
+     }
+     .left{
+         width: 100%;
+    }
+
+    .right{
+         width: 100%;
+    }
+ }
