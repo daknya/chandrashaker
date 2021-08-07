@@ -60,6 +60,9 @@ p{
  .pro{
       padding-left: 40px ;
  }
+ .bsdk{
+     display: none;
+ }
  @media (max-width:600px) {
      .everything{
           display: inline;
@@ -71,5 +74,17 @@ p{
 
     .right{
          width: 100%;
+    }
+    .bsdk{
+
+         display: flex ;
+         justify-content: space-between;
+         align-items: center;
+         padding: 40px;
+         color: sandybrown;
+    }
+    .bsdk h1:hover{
+        background:black;
+        
     }
  }
